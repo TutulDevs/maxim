@@ -1,0 +1,114 @@
+
+@media screen and (max-width: 768px) {
+
+    .checkbtn {
+        display: block;
+        margin-top: -10px;
+    }
+
+    #navbar .nav-list {
+        position: fixed;
+        right: -100%;
+        top: 51px;
+        width: 30%;
+        height: 100vh;
+        background: linear-gradient(rgb(26, 26, 26), #3a3737, #1a1a1a);
+        text-align: center;
+        transition: all 0.5s;
+    }
+    #navbar .nav-list li {
+        display: block;
+        margin: 0;
+    }
+    #navbar .nav-list li a {
+        display: block;
+        padding: 10px 0;
+        font-size: 1.15em;
+    }
+    #navbar .nav-list li a:hover {
+        background: #000;
+    }
+    #check:checked ~ ul {
+        right: 0;
+    }
+
+    .spacer-text,
+    .spacer-img,
+    .about-text,
+    .about-img ,
+    #contact-form article,
+    #contact-form aside  {
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin: 25px 0;
+    }
+
+    header {
+        padding: 0;
+    }
+
+    #showcase h1 {
+        font-size: 4em;
+    }
+
+    .about-text {
+        text-align: left;
+    }
+    .about-text p {
+        padding-right: 0;
+    }
+
+    .team-members {
+        width: 30%;
+        margin: 10px 1.6%;
+    }
+    .services-box,
+    .blog-box {
+        width: 48%;
+    }
+    .work-box {
+        width: 33.3%;
+    }
+
+    
+    #contact-form article {
+        padding: 0;
+        margin: 0;
+    }
+    #contact-form aside {
+        margin: 0;
+    }
+}
+
+
+@media screen and (max-width: 520px) {
+
+    #navbar .nav-list {
+        width: 100%;
+        height: auto;
+    }
+
+    #showcase h1 {
+        font-size: 3.5em;
+    }
+
+    .team-members{
+        width: 48%;
+        margin: 10px 1%;
+    }
+
+    .services-box,
+    .blog-box {
+        width: 100%;
+    }
+    .work-box {
+        width: 50%;
+        margin: 0;
+    }
+
+    #top {
+        display: none;
+    }
+}
+
